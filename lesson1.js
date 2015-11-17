@@ -1,8 +1,8 @@
 var bankBalance = prompt("Enter your bank balance");
-var PHONE_PRICE = 4500;
-var TAX_RATE_PERCENT = 0.1;
-var ACCESSORY_PRICE = 1000;
-var SPENDING_THRESHOLD = 1200;
+const PHONE_PRICE = 4500;
+const TAX_RATE_PERCENT = 0.1;
+const ACCESSORY_PRICE = 1000;
+const SPENDING_THRESHOLD = 1200;
 
 
 function calculateTax(amount){
